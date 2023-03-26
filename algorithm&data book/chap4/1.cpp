@@ -36,5 +36,5 @@ int main()
     if (func(n, w, a))
         cout << "Yes" << endl;
     else
-        cout << "No" << endl;
+        cout << "N" << endl;
 }

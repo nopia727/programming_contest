@@ -25,7 +25,7 @@ int main()
             cin >> c[i][j];
         }
     }
-    vector<long long> dp(n + 1, INF);
+    vector<long long> dp(n, INF);
     dp[0] = 0;
 
     cout << dp[n] << endl;

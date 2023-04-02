@@ -1,8 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <functional>
 using namespace std;
 template <class T>
+
 void chmax(T &a, T b)
 {
     if (a < b)
@@ -14,3 +16,5 @@ void chmin(T &a, T b)
     if (a > b)
         a = b;
 }
+
+using pll = pair<long long, long long>;

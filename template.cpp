@@ -1,7 +1,10 @@
 #include <iostream>
+#include <bits/stdc++.h>
 #include <vector>
 #include <algorithm>
 #include <functional>
+#include <unordered_map>
+#include <string>
 using namespace std;
 template <class T>
 
